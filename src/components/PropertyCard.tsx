@@ -36,7 +36,7 @@ export const PropertyCard: React.FC<PropertyCardProps> = ({
     const maxSize = parseInt(max);
 
     if (minSize === maxSize) {
-      return `${minSize} sq ft`;
+      return `${minSize} sq yard`;
     }
     return `${minSize} - ${maxSize} sq yard`;
   };
